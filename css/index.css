@@ -134,40 +134,212 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
+  text-decoration: none;
 }
 .flexbox {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  font-size: 2rem;
 }
 .fonts {
-  color: #006400;
+  text-decoration: none;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.main-container {
+  background-image: url(../img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin: 0 auto;
 }
 .main-container header nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  font-size: 2rem;
-  color: #006400;
+  text-decoration: none;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightblue;
+  font-size: 2rem;
+  background-color: white;
   height: 4rem;
 }
+.main-container header nav a {
+  color: black;
+  text-decoration: none;
+}
 .main-container .intro {
-  background-image: url('../img/img1.jpg');
-  background-position: center;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.main-container .intro div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  font-size: 2rem;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  padding: 3% 5% 7% 5%;
 }
-.main-container .intro div {
-  width: 50%;
+.main-container .intro div h1 {
+  padding-bottom: 10%;
+  font-size: 10rem;
+}
+.main-container .skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  flex-direction: column;
+  padding: 5% 3% 5% 3%;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.main-container .skills h2 {
+  width: 100%;
+  margin-bottom: 3%;
+  font-size: 6rem;
+  border-bottom: 2px solid black;
+  padding-left: 3%;
+}
+.main-container .skills div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  max-width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-container .skills div h3 {
+  height: 100%;
+  padding: 4% 2% 0 0%;
+  justify-content: center;
+}
+.main-container .skills div ol {
+  padding: 4% 2% 0 0%;
+  justify-content: center;
+}
+.main-container .work-history {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  flex-direction: column;
+  padding: 5% 3% 5% 3%;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.main-container .work-history h2 {
+  width: 100%;
+  margin-bottom: 3%;
+  font-size: 6rem;
+  border-bottom: 2px solid black;
+  padding-left: 3%;
+}
+.main-container .work-history div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  max-width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-container .work-history div h3 {
+  height: 100%;
+  padding: 4% 2% 0 0%;
+  justify-content: center;
+}
+.main-container .work-history div p {
+  padding: 4% 2% 0 0;
+}
+.main-container .work-history div ol {
+  padding: 4% 2% 0 0%;
+  justify-content: center;
+}
+.main-container .contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5% 3% 5% 3%;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.main-container .contact h3 {
+  width: 100%;
+  margin-bottom: 3rem;
+  font-size: 6rem;
+  border-bottom: 2px solid black;
+  padding-left: 3rem;
+}
+.main-container .contact div {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  height: 15rem;
+  border-bottom: 2px solid black;
+  flex-wrap: wrap;
+}
+.main-container .contact div h3 {
+  border-right: 2px solid black;
+  height: 100%;
+  padding: 7rem 3rem 0 3rem;
+  align-items: center;
+  margin: 0;
+}
+.main-container .contact div ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 2rem;
+}
+.main-container footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  justify-content: center;
+  padding: 3% 0 3% 0;
+  background-color: white;
+}
+@media (max-width: 500px) {
+  .main-container {
+    background: white;
+  }
 }
